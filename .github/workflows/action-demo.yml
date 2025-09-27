@@ -1,9 +1,9 @@
-name: One Shot Workflow
+name: action-demo
 
 on:
   push:
     paths:
-      - .github/workflows/one-shot.yml
+      - .github/workflows/action-demo.yml
 
 jobs:
   test:
